@@ -123,6 +123,7 @@
   text-transform: uppercase;
   letter-spacing: 2px;
   transition: 0.5s;
+  border-radius: 40px;
 }
 
 .text a:hover {
