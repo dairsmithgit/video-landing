@@ -141,6 +141,10 @@
 
 .social li {
   list-style: none;
+  width: 45px;
+  height: 45px;
+  align-items: center;
+  justify-content: center;
 }
 
 .social li a {
@@ -164,21 +168,31 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  background-color: #111;
 }
 
 .menu ul {
   position: relative;
   list-style: none;
+  width: 100px;
+}
+
+.menu ul li {
+  margin-top: 16px;
+  margin-bottom: 16px;
 }
 
 .menu ul li a {
   text-decoration: none;
   font-size: 24px;
-  color: #111;
+  color: #fff;
+  transition: 0.5s;
 }
 
 .menu ul li a:hover {
   color: #003087;
+  letter-spacing: 2px;
+  transition: 0.5s;
 }
 
 @media (max-width: 798px) {
